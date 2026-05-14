@@ -22,7 +22,7 @@ pod 'TKLiveSDK'
 
 ## Author
 
-shenmengyue@talk-cloud.com, 605026935@qq.com
+新拓云（北京）科技有限公司, zhangjiangtao@talk-cloud.com
 
 ## License
 
