@@ -1,0 +1,6 @@
+framework module TKLiveSDK {
+  umbrella header "TKLiveSDK.h"
+  export *
+
+  module * { export * }
+}
