@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'TKBaseSDK/Classes/**/*.{h,m}'
+  s.source_files = 'TKLiveSDK/Classes/**/*.{h,m}'
 
   s.ios.vendored_frameworks = 'TKLiveSDK/Frameworks/*.framework'
   
