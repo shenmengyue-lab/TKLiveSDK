@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKLiveSDK'
-  s.version          = '1.8.6'
+  s.version          = '1.8.6.1'
   s.summary          = '云直播SDK,是一款基于云计算技术的实时视频直播解决方案'
 
 # This description is used to generate tags and improve search results.

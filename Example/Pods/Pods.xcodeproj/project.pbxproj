@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DCE4D4FADAB046153F0368A23353C73 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 534EB95965DF5C8F43F3B3C2CD6683E3 /* ReplaceMe.m */; };
 		1DC63541F2682EC0F0163046ECC725BC /* Pods-TKLiveSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19582AF884DA6633E974CBBB56F3D1DD /* Pods-TKLiveSDK_Tests-dummy.m */; };
 		321DDC013EE3B3C969328CDD06C9EB97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		3DA8CD2FF3A929A0022126A75758F975 /* TKLiveSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68364AF2CCF872C02A24EFD8F4AB0796 /* TKLiveSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,7 +45,6 @@
 		2E3329C0E40B19C1546815D50E3A71EC /* Pods-TKLiveSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKLiveSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3F1BBFBCDCDA20DC82D3E090838FD4F1 /* Pods_TKLiveSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKLiveSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		534EB95965DF5C8F43F3B3C2CD6683E3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TKLiveSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		548823B35F297A3506514061A679994B /* Pods-TKLiveSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKLiveSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		55CEDF31C577B801019B5F71A9B3466E /* TKLiveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKLiveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA1C8CDFD0C100F82EC617EB18218D5 /* Pods-TKLiveSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKLiveSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 		763D376950BF7657E72B970315CC6186 /* TKLiveSDK */ = {
 			isa = PBXGroup;
 			children = (
-				534EB95965DF5C8F43F3B3C2CD6683E3 /* ReplaceMe.m */,
 				7263CEA0A42BC2D0B604E78312CC1D33 /* Pod */,
 				5EA1DBC368C3342AC8DEFE8E1FE729EB /* Support Files */,
 			);
@@ -375,7 +372,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DCE4D4FADAB046153F0368A23353C73 /* ReplaceMe.m in Sources */,
 				58328B69E3A48BB28A7F025DD29C5E50 /* TKLiveSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
