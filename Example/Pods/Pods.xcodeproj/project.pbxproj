@@ -6,79 +6,75 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		C8E29707F6218E43CBD1A6D29FDEDAB3 /* TKLiveSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0A7D152219C7A60A14E97CC954968A61 /* Build configuration list for PBXAggregateTarget "TKLiveSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TKLiveSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1DC63541F2682EC0F0163046ECC725BC /* Pods-TKLiveSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19582AF884DA6633E974CBBB56F3D1DD /* Pods-TKLiveSDK_Tests-dummy.m */; };
 		321DDC013EE3B3C969328CDD06C9EB97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		3DA8CD2FF3A929A0022126A75758F975 /* TKLiveSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68364AF2CCF872C02A24EFD8F4AB0796 /* TKLiveSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AD71244C92FD16393571CA100B79B0C /* Pods-TKLiveSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 548823B35F297A3506514061A679994B /* Pods-TKLiveSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58328B69E3A48BB28A7F025DD29C5E50 /* TKLiveSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA6B9C21C4ECE7005592F445A9FFD97 /* TKLiveSDK-dummy.m */; };
-		69523085985071775645DF1F6C853744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		844C17A97BAA59DE991BB5B475A90CAC /* Pods-TKLiveSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 271289D982C2E4D97C34D9804EF355EF /* Pods-TKLiveSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8548D312CFA979AA3087186F050E9691 /* Pods-TKLiveSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3329C0E40B19C1546815D50E3A71EC /* Pods-TKLiveSDK_Example-dummy.m */; };
 		E9D09A23BE7C28E2D8A79D56D90318D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		83EE422FB74E509E465C6B59B56254C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C8E29707F6218E43CBD1A6D29FDEDAB3;
-			remoteInfo = TKLiveSDK;
-		};
-		F992C6504C9B0ADF7AAD46A1079C325A /* PBXContainerItemProxy */ = {
+		0B99B55EE850F82E2D9D04EBD14EA8A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9EC235981A88AA2089AFE53511BCB003;
 			remoteInfo = "Pods-TKLiveSDK_Example";
 		};
+		CE1866680302429BBAD9F482CC6512D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8E29707F6218E43CBD1A6D29FDEDAB3;
+			remoteInfo = TKLiveSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0010B17C56F425D1218C454C7A3C3858 /* Pods-TKLiveSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKLiveSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0F1E286D37F19C598807AB0D284F0C1B /* TKLiveSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKLiveSDK.modulemap; sourceTree = "<group>"; };
 		19582AF884DA6633E974CBBB56F3D1DD /* Pods-TKLiveSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKLiveSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		271289D982C2E4D97C34D9804EF355EF /* Pods-TKLiveSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKLiveSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		27A6B3EACC2EB79A7F6747B314DB9D76 /* Pods-TKLiveSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKLiveSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2903BDB62908BE17741CDCE9189D912E /* Pods-TKLiveSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKLiveSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		2E3329C0E40B19C1546815D50E3A71EC /* Pods-TKLiveSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKLiveSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3F1BBFBCDCDA20DC82D3E090838FD4F1 /* Pods_TKLiveSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKLiveSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1BBFBCDCDA20DC82D3E090838FD4F1 /* Pods-TKLiveSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TKLiveSDK_Tests"; path = Pods_TKLiveSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		548823B35F297A3506514061A679994B /* Pods-TKLiveSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKLiveSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		55CEDF31C577B801019B5F71A9B3466E /* TKLiveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKLiveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA1C8CDFD0C100F82EC617EB18218D5 /* Pods-TKLiveSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKLiveSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		68364AF2CCF872C02A24EFD8F4AB0796 /* TKLiveSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKLiveSDK-umbrella.h"; sourceTree = "<group>"; };
+		5F2710AD4E98B4E3F42A749D234243EB /* TKLiveSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKLiveSDK.debug.xcconfig; sourceTree = "<group>"; };
+		693DE926D20B0B4DDBCD17EAF4EEC07E /* TKLiveSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKLiveSDK.release.xcconfig; sourceTree = "<group>"; };
 		6C49BFBB90EC8EB56CB46A6E3C692067 /* Pods-TKLiveSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKLiveSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6F9743CDBBA5CC63CAE5B60E426ACCAA /* Pods-TKLiveSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKLiveSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		72163D15CBB09A82904A3BA32B076C8A /* TKLiveSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKLiveSDK.debug.xcconfig; sourceTree = "<group>"; };
-		85354C956CA762C7042587230FCEA527 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8B8CC03733D8034B9B7D5F55071CF8A4 /* TKLiveSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TKLiveSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		827E5E00DF7D1891139F172FB4BBADEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		835BCB4A99D0933052BD975B290644DB /* TKLiveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TKLiveSDK.framework; path = TKLiveSDK/Frameworks/TKLiveSDK.framework; sourceTree = "<group>"; };
 		987D450BCDB80150B162596DC7D92640 /* Pods-TKLiveSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKLiveSDK_Example.modulemap"; sourceTree = "<group>"; };
-		9AF45AACE488FEC672AC58C6AC8B5464 /* TKLiveSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKLiveSDK.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FA27178861D85CBDE865D50B841779F /* TKLiveSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKLiveSDK-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4B1DC40CA231032B1B79FAE1F5A3DAF /* Pods-TKLiveSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKLiveSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		A8757299EA7CAC0D3F1E72DD6D2F3A5E /* Pods-TKLiveSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKLiveSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A8F6AE24E4D4A9BBAD3501C822715F97 /* Pods-TKLiveSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKLiveSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B3F65F7C2B8C8AD6A11E2C88439168EF /* Pods_TKLiveSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKLiveSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBA6B9C21C4ECE7005592F445A9FFD97 /* TKLiveSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKLiveSDK-dummy.m"; sourceTree = "<group>"; };
+		B3F65F7C2B8C8AD6A11E2C88439168EF /* Pods-TKLiveSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TKLiveSDK_Example"; path = Pods_TKLiveSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC5A36FA4E3EAF98FA1FA20D62D3306 /* Pods-TKLiveSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKLiveSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C64F81D4C997CDD785FE3BD9DD3E5022 /* Pods-TKLiveSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKLiveSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D871253887257383EEA4C8936CC8ACFA /* TKLiveSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKLiveSDK-Info.plist"; sourceTree = "<group>"; };
+		C89E1C3C43BD073279281AD9DBF4BFB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E1ACF84B2A47878B9042960695F1DD57 /* Pods-TKLiveSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKLiveSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		EECC27B918CF0BAD484BD3F0B5090DAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F391278A8984456FCF08CF93EE93F14A /* TKLiveSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TKLiveSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C0B5EE49AB62169033D7AFDD4DCA45B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69523085985071775645DF1F6C853744 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		654382908A2A1EB540B315F86D103F97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,9 +97,19 @@
 		07380A9F36FC4B64B9D491B869FA0771 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				763D376950BF7657E72B970315CC6186 /* TKLiveSDK */,
+				9FC682F398C9BA12329275025BCF6CD9 /* TKLiveSDK */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		288AD17F8AF7FD08C70FBA75E68BFFF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F2710AD4E98B4E3F42A749D234243EB /* TKLiveSDK.debug.xcconfig */,
+				693DE926D20B0B4DDBCD17EAF4EEC07E /* TKLiveSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TKLiveSDK";
 			sourceTree = "<group>";
 		};
 		3FFE27580B728B6870D4F5C5E10BEFAE /* Pods-TKLiveSDK_Example */ = {
@@ -123,16 +129,6 @@
 			path = "Target Support Files/Pods-TKLiveSDK_Example";
 			sourceTree = "<group>";
 		};
-		4A25A7B408A7A156EB40D5421B4CB3BA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B3F65F7C2B8C8AD6A11E2C88439168EF /* Pods_TKLiveSDK_Example.framework */,
-				3F1BBFBCDCDA20DC82D3E090838FD4F1 /* Pods_TKLiveSDK_Tests.framework */,
-				55CEDF31C577B801019B5F71A9B3466E /* TKLiveSDK.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		4DA9F280995074E1452D2E5193335A49 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,36 +138,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5EA1DBC368C3342AC8DEFE8E1FE729EB /* Support Files */ = {
+		7FA36FEB43C7F01D15D7B6A1116C5398 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F1E286D37F19C598807AB0D284F0C1B /* TKLiveSDK.modulemap */,
-				BBA6B9C21C4ECE7005592F445A9FFD97 /* TKLiveSDK-dummy.m */,
-				D871253887257383EEA4C8936CC8ACFA /* TKLiveSDK-Info.plist */,
-				9FA27178861D85CBDE865D50B841779F /* TKLiveSDK-prefix.pch */,
-				68364AF2CCF872C02A24EFD8F4AB0796 /* TKLiveSDK-umbrella.h */,
-				72163D15CBB09A82904A3BA32B076C8A /* TKLiveSDK.debug.xcconfig */,
-				9AF45AACE488FEC672AC58C6AC8B5464 /* TKLiveSDK.release.xcconfig */,
+				835BCB4A99D0933052BD975B290644DB /* TKLiveSDK.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TKLiveSDK";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7263CEA0A42BC2D0B604E78312CC1D33 /* Pod */ = {
+		7FB6B50A2CCB771739D1F9EAFA998073 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85354C956CA762C7042587230FCEA527 /* LICENSE */,
-				EECC27B918CF0BAD484BD3F0B5090DAD /* README.md */,
-				8B8CC03733D8034B9B7D5F55071CF8A4 /* TKLiveSDK.podspec */,
+				B3F65F7C2B8C8AD6A11E2C88439168EF /* Pods-TKLiveSDK_Example */,
+				3F1BBFBCDCDA20DC82D3E090838FD4F1 /* Pods-TKLiveSDK_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		891E9281C5C9D92A19DB2C663328B042 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C89E1C3C43BD073279281AD9DBF4BFB5 /* LICENSE */,
+				827E5E00DF7D1891139F172FB4BBADEC /* README.md */,
+				F391278A8984456FCF08CF93EE93F14A /* TKLiveSDK.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		763D376950BF7657E72B970315CC6186 /* TKLiveSDK */ = {
+		9FC682F398C9BA12329275025BCF6CD9 /* TKLiveSDK */ = {
 			isa = PBXGroup;
 			children = (
-				7263CEA0A42BC2D0B604E78312CC1D33 /* Pod */,
-				5EA1DBC368C3342AC8DEFE8E1FE729EB /* Support Files */,
+				7FA36FEB43C7F01D15D7B6A1116C5398 /* Frameworks */,
+				891E9281C5C9D92A19DB2C663328B042 /* Pod */,
+				288AD17F8AF7FD08C70FBA75E68BFFF2 /* Support Files */,
 			);
 			name = TKLiveSDK;
 			path = ../..;
@@ -183,7 +182,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				07380A9F36FC4B64B9D491B869FA0771 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				4A25A7B408A7A156EB40D5421B4CB3BA /* Products */,
+				7FB6B50A2CCB771739D1F9EAFA998073 /* Products */,
 				4DA9F280995074E1452D2E5193335A49 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -239,14 +238,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAA72401226666CEF28E2CA8EE70AE19 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3DA8CD2FF3A929A0022126A75758F975 /* TKLiveSDK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -262,11 +253,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				7D726B525D12611A4E04B41DE6CC813C /* PBXTargetDependency */,
+				832FCE83EB66C6E76AD10E5246D174FB /* PBXTargetDependency */,
 			);
 			name = "Pods-TKLiveSDK_Tests";
 			productName = Pods_TKLiveSDK_Tests;
-			productReference = 3F1BBFBCDCDA20DC82D3E090838FD4F1 /* Pods_TKLiveSDK_Tests.framework */;
+			productReference = 3F1BBFBCDCDA20DC82D3E090838FD4F1 /* Pods-TKLiveSDK_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		9EC235981A88AA2089AFE53511BCB003 /* Pods-TKLiveSDK_Example */ = {
@@ -281,29 +272,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9EA70F9729AB496A458D33DB6AC4537 /* PBXTargetDependency */,
+				2DBBB056F99BED5874B07EAF4BFE0F47 /* PBXTargetDependency */,
 			);
 			name = "Pods-TKLiveSDK_Example";
 			productName = Pods_TKLiveSDK_Example;
-			productReference = B3F65F7C2B8C8AD6A11E2C88439168EF /* Pods_TKLiveSDK_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C8E29707F6218E43CBD1A6D29FDEDAB3 /* TKLiveSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DCE0A3BD7E2A8F794992C0C232585EA3 /* Build configuration list for PBXNativeTarget "TKLiveSDK" */;
-			buildPhases = (
-				FAA72401226666CEF28E2CA8EE70AE19 /* Headers */,
-				A60FA823FE760C7662C5465714E3AA49 /* Sources */,
-				0C0B5EE49AB62169033D7AFDD4DCA45B /* Frameworks */,
-				03B27814AED8D967239FEB9E4A6D76D8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TKLiveSDK;
-			productName = TKLiveSDK;
-			productReference = 55CEDF31C577B801019B5F71A9B3466E /* TKLiveSDK.framework */;
+			productReference = B3F65F7C2B8C8AD6A11E2C88439168EF /* Pods-TKLiveSDK_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -324,7 +297,9 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4A25A7B408A7A156EB40D5421B4CB3BA /* Products */;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7FB6B50A2CCB771739D1F9EAFA998073 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -336,13 +311,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03B27814AED8D967239FEB9E4A6D76D8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6361FD33BB7A9EAAAB915B0E88CF4CC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,14 +336,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A60FA823FE760C7662C5465714E3AA49 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58328B69E3A48BB28A7F025DD29C5E50 /* TKLiveSDK-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D0649A46444381B0CF57F589A143B60C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,21 +347,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7D726B525D12611A4E04B41DE6CC813C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TKLiveSDK_Example";
-			target = 9EC235981A88AA2089AFE53511BCB003 /* Pods-TKLiveSDK_Example */;
-			targetProxy = F992C6504C9B0ADF7AAD46A1079C325A /* PBXContainerItemProxy */;
-		};
-		D9EA70F9729AB496A458D33DB6AC4537 /* PBXTargetDependency */ = {
+		2DBBB056F99BED5874B07EAF4BFE0F47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TKLiveSDK;
 			target = C8E29707F6218E43CBD1A6D29FDEDAB3 /* TKLiveSDK */;
-			targetProxy = 83EE422FB74E509E465C6B59B56254C0 /* PBXContainerItemProxy */;
+			targetProxy = CE1866680302429BBAD9F482CC6512D5 /* PBXContainerItemProxy */;
+		};
+		832FCE83EB66C6E76AD10E5246D174FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TKLiveSDK_Example";
+			target = 9EC235981A88AA2089AFE53511BCB003 /* Pods-TKLiveSDK_Example */;
+			targetProxy = 0B99B55EE850F82E2D9D04EBD14EA8A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		003DE9BFA9A5668974EB99A32AE771D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2710AD4E98B4E3F42A749D234243EB /* TKLiveSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		23C8013AA862E6373016D84EAE129995 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BCC5A36FA4E3EAF98FA1FA20D62D3306 /* Pods-TKLiveSDK_Tests.release.xcconfig */;
@@ -431,77 +406,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2401A4FBD9118928C47F02BA626AE916 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72163D15CBB09A82904A3BA32B076C8A /* TKLiveSDK.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/TKLiveSDK/TKLiveSDK-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/TKLiveSDK/TKLiveSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TKLiveSDK/TKLiveSDK.modulemap";
-				PRODUCT_MODULE_NAME = TKLiveSDK;
-				PRODUCT_NAME = TKLiveSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		24CB5B75D75C055DAFAC9D1546845275 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AF45AACE488FEC672AC58C6AC8B5464 /* TKLiveSDK.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/TKLiveSDK/TKLiveSDK-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/TKLiveSDK/TKLiveSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TKLiveSDK/TKLiveSDK.modulemap";
-				PRODUCT_MODULE_NAME = TKLiveSDK;
-				PRODUCT_NAME = TKLiveSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -635,7 +539,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -675,6 +580,22 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		B615337B06F0AD49C46C04F119683CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693DE926D20B0B4DDBCD17EAF4EEC07E /* TKLiveSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -754,6 +675,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		0A7D152219C7A60A14E97CC954968A61 /* Build configuration list for PBXAggregateTarget "TKLiveSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003DE9BFA9A5668974EB99A32AE771D4 /* Debug */,
+				B615337B06F0AD49C46C04F119683CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -768,15 +698,6 @@
 			buildConfigurations = (
 				A35E98FF781B4F8D22AD8B3464A48CC8 /* Debug */,
 				7C8590C4EA76E5F3C9C2C9547B8985BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DCE0A3BD7E2A8F794992C0C232585EA3 /* Build configuration list for PBXNativeTarget "TKLiveSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2401A4FBD9118928C47F02BA626AE916 /* Debug */,
-				24CB5B75D75C055DAFAC9D1546845275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

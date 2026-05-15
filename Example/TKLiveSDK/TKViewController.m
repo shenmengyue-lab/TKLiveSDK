@@ -7,6 +7,7 @@
 //
 
 #import "TKViewController.h"
+#import <TKLiveSDK/TLEduClassManager.h>
 
 @interface TKViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [[TLEduClassManager shareInstance] joinRoomWithUrl:@""];
 }
 
 - (void)didReceiveMemoryWarning

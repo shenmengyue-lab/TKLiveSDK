@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKLiveSDK'
-  s.version          = '1.8.6.1'
+  s.version          = '1.8.6.2'
   s.summary          = '云直播SDK,是一款基于云计算技术的实时视频直播解决方案'
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'TKLiveSDK/Classes/**/*.{h,m}'
 
   s.ios.vendored_frameworks = 'TKLiveSDK/Frameworks/*.framework'
   
+  s.public_header_files = 'TKLiveSDK/Frameworks/TKLiveSDK.framework/Headers/*.h'
+
   #  静态库必须加
   s.static_framework = true
 
