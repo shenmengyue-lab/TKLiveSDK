@@ -16,7 +16,5 @@ FOUNDATION_EXPORT const unsigned char TKLiveSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TKLiveSDK/PublicHeader.h>
 
-#import "TLAPPSetConfig.h"
-#import "TLEduClassManager.h"
-#import "TLEduRoomDelegate.h"
-
+#import <TKLiveSDK/TKLiveSDK.h>
+#import <TKLiveSDK/TLEduClassManager.h>

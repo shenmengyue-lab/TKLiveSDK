@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKLiveSDK'
-  s.version          = '1.8.6.2'
+  s.version          = '1.8.6.3'
   s.summary          = '云直播SDK,是一款基于云计算技术的实时视频直播解决方案'
 
 # This description is used to generate tags and improve search results.
@@ -29,20 +29,16 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
+  
+#  s.source_files = 'TKLiveSDK/Classes/**/*.{h,m}'
 
 
   s.ios.vendored_frameworks = 'TKLiveSDK/Frameworks/*.framework'
   
-  s.public_header_files = 'TKLiveSDK/Frameworks/TKLiveSDK.framework/Headers/*.h'
-
   #  静态库必须加
   s.static_framework = true
 
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64 arm64e' }
-  
-  #  支持模块，让 #import <> 能找到
-  s.user_target_xcconfig = {
-    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
-  }
+
 
 end

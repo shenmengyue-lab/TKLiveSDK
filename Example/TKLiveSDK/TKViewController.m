@@ -7,7 +7,7 @@
 //
 
 #import "TKViewController.h"
-#import <TKLiveSDK/TLEduClassManager.h>
+#import <TKLiveSDK/TKLiveSDK.h>
 
 @interface TKViewController ()
 
