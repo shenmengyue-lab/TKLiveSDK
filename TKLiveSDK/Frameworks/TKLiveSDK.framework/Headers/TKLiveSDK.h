@@ -19,4 +19,3 @@ FOUNDATION_EXPORT const unsigned char TKLiveSDKVersionString[];
 #import "TLAPPSetConfig.h"
 #import "TLEduClassManager.h"
 #import "TLEduRoomDelegate.h"
-
